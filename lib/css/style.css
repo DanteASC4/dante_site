@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat')!important;
+@import url('https://fonts.googleapis.com/css?family=VT323')!important;
+@font-face {
+  font-family: 'Anurati-regular';
+  src: url('../libraries/Fonts/Anurati-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Mylodon-Light';
+  src: url('../libraries/Fonts/Mylodon-Light.woff2') format('woff2');
+}
+*{
+  -webkit-transition: all 1s;
+}
+body {
+  background-color: #000000 !important;
+}
+
+#datName {
+  font-family: 'Anurati-regular', sans-serif!important;
+  color: #00ff00!important;
+  -webkit-text-stroke-width: 1px!important;
+  -webkit-text-stroke-color: #C5C6C7!important;
+  text-shadow: -1px 10px px #00e6e6!important;
+  -webkit-transform: rotateY(10deg)!important;
+  -webkit-transform-origin: left!important;
+  font-size: 90px;
+}
+
+
+#style-text {
+  -webkit-transform: translateX(95%)!important;
+  position:absolute!important;
+}
+#content {
+    position: absolute!important;
+    top: 100px!important;
+    right: 0!important;
+    left: 10px!important;
+    bottom: 20px!important;
+
+}
+pre {
+  color: #00ff00!important;
+  display: block!important;
+}
+pre:not(:empty) {
+  padding-top:10px!important;
+  overflow: auto!important;
+  background: rgb(48, 48, 48)!important;
+  border: 1px solid #ccc!important;
+  width: 49%!important;
+  font-size: 14px!important;
+  font-family:'VT323', monospace!important;
+  padding: 10px 10px 20px!important;
+  box-shadow: -4px 4px 2px 0 rgba(0,0,0,0.3)!important;
+  white-space: pre-wrap!important;
+  outline: 0!important;
+}
+body {
+  -webkit-perspective: 1000px!important;
+}
+
+#style-text {
+  -webkit-transform: translateX(98.6%) rotateY(-10deg)!important;
+  -webkit-transform-origin: right!important;
+}
+
+pre:not(#style-text) {
+  -webkit-transform: rotateY(10deg)!important;
+  -webkit-transform-origin: left!important;
+}
+#bobe{
+  background-color: rgb(48, 48, 48);
+  border: 1px solid #ccc!important;
+  font-family:'VT323', monospace!important;
+  color: #00ff00!important;
+  -webkit-transform: rotateY(10deg)!important;
+  -webkit-transform-origin: left!important;
+}
+
+#datCanvas {
+  background-color: #ffffff;
+  max-width: 600px;
+  max-height: 400px;
+  display: block!important;
+  text-align: center!important;
+  margin:300px auto!important;
+  
+
+}
+
+
+
+#lotus {
+  background-color: #000000;
+}
+
+/*
+@keyframes slideIn {
+  0% {
+    margin-bottom: 500px;
+    transform: translatey(-100px)}
+  10%{ transform: translateY(-90px)}
+  20%{transform: translateY(-80px)}
+  30%{transform: translateY(-70px)}
+  40%{transform: translateY(-60px)}
+  50%{transform: translateY(-50px)}
+  60%{transform: translateY(-40px)}
+  70%{transform: translateY(-30px)}
+  80%{transform: translateY(-20px)}
+  90%{transform: translateY(-10px)}
+  100%{transform: translateY(0px)}
+}
+#petal1 {
+  animation: slideIn 1s ease-out 0s;
+}
+#petal2 {
+  animation: slideIn 1s ease-out .1s;
+}
+#petal3 {
+  animation: slideIn 1s ease-out .2s;
+}
+#petal4 {
+  animation: slideIn 1s ease-out .3s;
+}
+#petal5 {
+  animation: slideIn 1s ease-out .4s;
+}
+#petal6 {
+  animation: slideIn 1s ease-out .5s;
+}
+#petal7 {
+  animation: slideIn 1s ease-out .6s;
+}
+#petal8 {
+  animation: slideIn 1s ease-out .7s;
+}
+#petal9 {
+  animation: slideIn 1s ease-out .8s;
+}
+#petal10 {
+  animation: slideIn 1s ease-out .9s;
+}
+#petal11 {
+  animation: slideIn 1s ease-out 1s;
+}
+#petal12 {
+  animation: slideIn 1s ease-out 1.1s;
+}
+#petal13 {
+  animation: slideIn 1s ease-out 1.2s;
+}
+#petal14 {
+  animation: slideIn 1s ease-out 1.3s;
+}
+#petal15 {
+  animation: slideIn 1s ease-out 1.4s;
+}
+#petal16 {
+  animation: slideIn 1s ease-out 1.5s;
+}
+#petal17 {
+  animation: slideIn 1s ease-out 1.6s;
+}
+#petal18 {
+  animation: slideIn 1s ease-out 1.7s;
+}
+#petal19 {
+  animation: slideIn 1s ease-out 1.8s;
+}
+#petal20 {
+  animation: slideIn 1s ease-out 1.9s;
+}
+*/
