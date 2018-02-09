@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat')!important;
 @import url('https://fonts.googleapis.com/css?family=VT323')!important;
+
 @font-face {
   font-family: 'Anurati-regular';
-  src: url('../libraries/Fonts/Anurati-Regular.woff2') format('woff2');
+  src: url('../Libraries/Fonts/Anurati-Regular.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Mylodon-Light';
-  src: url('../libraries/Fonts/Mylodon-Light.woff2') format('woff2');
+  src: url('../Libraries/Fonts/Mylodon-Light.woff2') format('woff2');
 }
 *{
   -webkit-transition: all 1s;
@@ -97,4 +98,10 @@ pre:not(#style-text) {
 
 #lotus {
   background-color: #000000;
+}
+
+
+
+#datcanvas {
+  background-color: rgba(0,0,0,0.3);
 }
