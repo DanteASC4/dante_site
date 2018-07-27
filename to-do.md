@@ -1,0 +1,16 @@
+# To-do
+- Change lower grid categories
+  - Porfolio
+  - Connect (github, linkedin, gmail, etc...)
+    - Make sure to get the little icon things
+  - Skillset
+  - Goals / seeking
+  - Experience
+  - Hobbies
+- Upper grid needs:
+  - Personal Statement
+  - About me
+- Add star background using the mouse tracking parallax library
+- Cool font
+- Give my name a floating box
+- Use the remaining grid spot to the right of it, under the large personal statement one, for full on hosted sites I made
